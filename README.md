@@ -20,6 +20,8 @@ E seguimentos com tabelas relacionais:
 - Pedido / Cliente
 - Pedido / Pagamento
 
+![./SQL-E-commerce/Diagrama/Diagrama E-commerce.png](https://github.com/karinewagner/Projetos-SQL-DIO/blob/main/SQL-E-commerce/Diagrama/Diagrama%20E-commerce.png) 
+
 ## Database Schema Oficina (MySQL)
 > Projeto Conceitual de Banco de Dados (Oficina)
 
