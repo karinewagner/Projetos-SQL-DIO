@@ -10,7 +10,7 @@ create table clients(
     Minit char(3),
     Lname varchar(20),
     CPF char(11) not null,
-    Address varchar(30),
+    Address varchar(60),
     primary key(idClient),
     constraint unique_cpf_client unique (CPF)
     );
