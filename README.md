@@ -22,7 +22,9 @@ E seguimentos com tabelas relacionais:
 
 ![./SQL-E-commerce/Diagrama/Diagrama E-commerce.png](https://github.com/karinewagner/Projetos-SQL-DIO/blob/main/SQL-E-commerce/Diagrama/Diagrama%20E-commerce.png) 
 
-## Database Schema Oficina (MySQL)
-> Projeto Conceitual de Banco de Dados (Oficina)
+## Database Schema Mechanical-Workshop (MySQL)
+> Projeto Conceitual de Banco de Dados (Mechanical-Workshop)
 
 ... Em construção...
+
+![./SQL-E-commerce/Diagrama/Diagrama E-commerce.png](https://github.com/karinewagner/Projetos-SQL-DIO/blob/main/SQL-Oficina/Diagrama/Diagrama%20Mechanical-Workshop.png) 
