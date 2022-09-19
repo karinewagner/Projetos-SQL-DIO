@@ -47,17 +47,14 @@ create table mechanical(
 create table serviceOrders(
 	idServiceOrder int auto_increment not null,
     idSOrderVehicle int not null,
-    idSOrderClient int not null,
     idSOrdersMecanicsTeam int not null,
     IsseuDate date,
     TotalPrice float,
     ServicesStatus enum('Recebido', 'Em andamento', 'Concluído', 'Cancelado') default 'Recebido',
     ConclusionDate date,
-    Authorized boolean,
     primary key(idServiceOrder),
     constraint fk_SOrder_Vehicle foreign key (idSOrderVehicle) references vehicles(idVehicle),
-    constraint fk_SOrder_Client foreign key (idSOrderClient) references clients(idClient),
-    constraint fk_SOrder_MecanicsTeam foreign key (idSOrdersMecanicsTeam) references mechanical(idMechanical)
+    constraint fk_SOrder_MecanicsTeam foreign key (idSOrdersMecanicsTeam) references mechanicsTeam(idMechanicsTeam)
     );
 desc serviceOrders;  
 
