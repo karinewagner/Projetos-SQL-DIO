@@ -25,6 +25,15 @@ E seguimentos com tabelas relacionais:
 ## Database Schema Mechanical-Workshop (MySQL)
 > Projeto Conceitual de Banco de Dados (Mechanical-Workshop)
 
-... Em construção...
+### Tabelas inclusas:
+- Cliente
+- Veiculos
+- Mecanicos
+- Time de mecânica
+- Ordem de serviço
+- Serviços
+- Requisição de serviços
+- Produtos
+- Requisição de produtos
 
 ![./SQL-E-commerce/Diagrama/Diagrama E-commerce.png](https://github.com/karinewagner/Projetos-SQL-DIO/blob/main/SQL-Oficina/Diagrama/Diagrama%20Mechanical-Workshop.png) 
